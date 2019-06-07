@@ -1,0 +1,33 @@
+
+
+APP_TARGET = 'ReactNativeLoginWithApple'
+PROJECT_PATH = '../node_modules/'
+
+platform :ios, '13.0'
+
+target 'ReactNativeLoginWithApple' do
+    
+    pod 'React', :path => PROJECT_PATH + 'react-native', :subspecs => [
+    'Core',
+    'CxxBridge',
+    'DevSupport',
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTNetwork',
+    'RCTPushNotification',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket', # needed for debugging
+    ]
+    
+    pod 'yoga', :path => PROJECT_PATH + 'react-native/ReactCommon/yoga'
+    pod 'DoubleConversion', :podspec => PROJECT_PATH + 'react-native/third-party-podspecs/DoubleConversion.podspec'  
+   pod 'glog', :podspec => PROJECT_PATH + 'react-native/third-party-podspecs/GLog.podspec'
+   pod 'Folly', :podspec => PROJECT_PATH + 'react-native/third-party-podspecs/Folly.podspec'
+   pod 'RNLoginWithApple', :podspec => '../' + 'RNLoginWithApple.podspec'
+   
+end

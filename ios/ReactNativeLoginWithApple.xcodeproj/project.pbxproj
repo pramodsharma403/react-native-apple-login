@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23ECDF1C11C857A790473471 /* libPods-ReactNativeLoginWithApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DDA5045986E84EF75C7522 /* libPods-ReactNativeLoginWithApple.a */; };
+		3C062E7422A9218C00589F69 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 3C062E7322A9218C00589F69 /* lib */; };
+		3C59FF6722A7FCB800E1A4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C59FF6622A7FCB800E1A4AD /* Main.storyboard */; };
+		3C7646CD22A7C18B002D1467 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7646CC22A7C18B002D1467 /* AppDelegate.m */; };
+		3C7646D322A7C18B002D1467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7646D222A7C18B002D1467 /* ViewController.m */; };
+		3C7646D822A7C18F002D1467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7646D722A7C18F002D1467 /* Assets.xcassets */; };
+		3C7646DB22A7C18F002D1467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7646D922A7C18F002D1467 /* LaunchScreen.storyboard */; };
+		3C7646DE22A7C18F002D1467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7646DD22A7C18F002D1467 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		263CAAEC28AD44EB73E90F27 /* Pods-ReactNativeLoginWithApple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeLoginWithApple.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeLoginWithApple/Pods-ReactNativeLoginWithApple.release.xcconfig"; sourceTree = "<group>"; };
+		3C062E7322A9218C00589F69 /* lib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lib; sourceTree = SOURCE_ROOT; };
+		3C59FF6622A7FCB800E1A4AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3C7646C822A7C18B002D1467 /* ReactNativeLoginWithApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeLoginWithApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7646CB22A7C18B002D1467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C7646CC22A7C18B002D1467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C7646D122A7C18B002D1467 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C7646D222A7C18B002D1467 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C7646D722A7C18F002D1467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C7646DA22A7C18F002D1467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C7646DC22A7C18F002D1467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7646DD22A7C18F002D1467 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1DDA5045986E84EF75C7522 /* libPods-ReactNativeLoginWithApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeLoginWithApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65433C18DCFFDB02D709EF3 /* Pods-ReactNativeLoginWithApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeLoginWithApple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeLoginWithApple/Pods-ReactNativeLoginWithApple.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7646C522A7C18B002D1467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ECDF1C11C857A790473471 /* libPods-ReactNativeLoginWithApple.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2830CEDFBD20BEC06D4963EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C65433C18DCFFDB02D709EF3 /* Pods-ReactNativeLoginWithApple.debug.xcconfig */,
+				263CAAEC28AD44EB73E90F27 /* Pods-ReactNativeLoginWithApple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C7646BF22A7C18B002D1467 = {
+			isa = PBXGroup;
+			children = (
+				3C7646CA22A7C18B002D1467 /* ReactNativeLoginWithApple */,
+				3C7646C922A7C18B002D1467 /* Products */,
+				2830CEDFBD20BEC06D4963EE /* Pods */,
+				6224A3D882AD0D2BAF613E63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7646C922A7C18B002D1467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7646C822A7C18B002D1467 /* ReactNativeLoginWithApple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7646CA22A7C18B002D1467 /* ReactNativeLoginWithApple */ = {
+			isa = PBXGroup;
+			children = (
+				3C062E7322A9218C00589F69 /* lib */,
+				3C7646CB22A7C18B002D1467 /* AppDelegate.h */,
+				3C7646CC22A7C18B002D1467 /* AppDelegate.m */,
+				3C7646D122A7C18B002D1467 /* ViewController.h */,
+				3C7646D222A7C18B002D1467 /* ViewController.m */,
+				3C59FF6622A7FCB800E1A4AD /* Main.storyboard */,
+				3C7646D722A7C18F002D1467 /* Assets.xcassets */,
+				3C7646D922A7C18F002D1467 /* LaunchScreen.storyboard */,
+				3C7646DC22A7C18F002D1467 /* Info.plist */,
+				3C7646DD22A7C18F002D1467 /* main.m */,
+			);
+			path = ReactNativeLoginWithApple;
+			sourceTree = "<group>";
+		};
+		6224A3D882AD0D2BAF613E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1DDA5045986E84EF75C7522 /* libPods-ReactNativeLoginWithApple.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7646C722A7C18B002D1467 /* ReactNativeLoginWithApple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7646E122A7C18F002D1467 /* Build configuration list for PBXNativeTarget "ReactNativeLoginWithApple" */;
+			buildPhases = (
+				C6D482BA98F23FF5727D723C /* [CP] Check Pods Manifest.lock */,
+				3C7646C422A7C18B002D1467 /* Sources */,
+				3C7646C522A7C18B002D1467 /* Frameworks */,
+				3C7646C622A7C18B002D1467 /* Resources */,
+				F1F9E5A7594E5101D31C0EE7 /* [CP] Embed Pods Frameworks */,
+				858ADA567FB966E71A588834 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeLoginWithApple;
+			productName = ReactNativeLoginWithApple;
+			productReference = 3C7646C822A7C18B002D1467 /* ReactNativeLoginWithApple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7646C022A7C18B002D1467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = PRAMOD;
+				TargetAttributes = {
+					3C7646C722A7C18B002D1467 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 3C7646C322A7C18B002D1467 /* Build configuration list for PBXProject "ReactNativeLoginWithApple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C7646BF22A7C18B002D1467;
+			productRefGroup = 3C7646C922A7C18B002D1467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7646C722A7C18B002D1467 /* ReactNativeLoginWithApple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7646C622A7C18B002D1467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C59FF6722A7FCB800E1A4AD /* Main.storyboard in Resources */,
+				3C7646DB22A7C18F002D1467 /* LaunchScreen.storyboard in Resources */,
+				3C062E7422A9218C00589F69 /* lib in Resources */,
+				3C7646D822A7C18F002D1467 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		858ADA567FB966E71A588834 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeLoginWithApple/Pods-ReactNativeLoginWithApple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D482BA98F23FF5727D723C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeLoginWithApple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F9E5A7594E5101D31C0EE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeLoginWithApple/Pods-ReactNativeLoginWithApple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7646C422A7C18B002D1467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7646D322A7C18B002D1467 /* ViewController.m in Sources */,
+				3C7646CD22A7C18B002D1467 /* AppDelegate.m in Sources */,
+				3C7646DE22A7C18F002D1467 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C7646D922A7C18F002D1467 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7646DA22A7C18F002D1467 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C7646DF22A7C18F002D1467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C7646E022A7C18F002D1467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C7646E222A7C18F002D1467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65433C18DCFFDB02D709EF3 /* Pods-ReactNativeLoginWithApple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeLoginWithApple/ReactNativeLoginWithAppleDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBP632NWDG;
+				INFOPLIST_FILE = ReactNativeLoginWithApple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybuddy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C7646E322A7C18F002D1467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263CAAEC28AD44EB73E90F27 /* Pods-ReactNativeLoginWithApple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeLoginWithApple/ReactNativeLoginWithApple.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ReactNativeLoginWithApple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybuddy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7646C322A7C18B002D1467 /* Build configuration list for PBXProject "ReactNativeLoginWithApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7646DF22A7C18F002D1467 /* Debug */,
+				3C7646E022A7C18F002D1467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7646E122A7C18F002D1467 /* Build configuration list for PBXNativeTarget "ReactNativeLoginWithApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7646E222A7C18F002D1467 /* Debug */,
+				3C7646E322A7C18F002D1467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7646C022A7C18B002D1467 /* Project object */;
+}

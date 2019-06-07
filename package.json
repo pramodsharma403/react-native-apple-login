@@ -1,0 +1,32 @@
+{
+	"name": "react-native-apple-login",
+	"description": "This is the dependency for Sign In With Apple.",
+	"license": "MIT",
+	"version": "1.0.5",
+	"author": "Pramod Sharma",
+	"keywords": [
+		"react-native",
+		"Sign In With Apple",
+		"Login With Apple",
+		"Apple Login",
+		"Apple SignIn",
+		"react-native-apple-login"
+	],
+	"homepage": "https://github.com/pramodsharma403/LoginWithApple",
+	"main": "./LoginWithApple.js",
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "echo no test"
+	},
+	"devDependencies": {
+		"react": "16.8.3",
+		"react-native": "0.59.8",
+		"@babel/core": "^7.4.5",
+		"@babel/runtime": "^7.4.5",
+		"metro-react-native-babel-preset": "^0.54.1"
+	},
+	"peerDependencies": {
+		"react": "*",
+		"react-native": "*"
+	}
+}
