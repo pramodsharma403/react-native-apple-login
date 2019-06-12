@@ -45,7 +45,6 @@
         self.successBlock(userDetails);
     }
    
-
 }
 
 - (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithError:(NSError *)error {

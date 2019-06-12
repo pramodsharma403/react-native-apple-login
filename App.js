@@ -10,7 +10,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, NativeModules } from 'react-native';
 
 //import LoginWithApple from './LoginWithApple';
-import LoginWithApple from 'react-native-loginwithapple';
+import LoginWithApple from 'react-native-apple-login';
 
 const nativ = NativeModules.ReactNativeBridge;
 
@@ -42,8 +42,7 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		justifyContent: 'center',
-		alignItems: 'center',
-		backgroundColor: '#F5FCFF'
+		alignItems: 'center'
 	},
 	welcome: {
 		fontSize: 20,
