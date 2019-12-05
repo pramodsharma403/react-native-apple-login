@@ -41,11 +41,22 @@
     NSLog(@"%@",authorization);
     ASAuthorizationAppleIDCredential *appleIDCredential = [authorization credential];
     if(appleIDCredential) {
-        NSDictionary *userDetails = @{@"userIdentifier": [appleIDCredential user], @"name" : [appleIDCredential fullName], @"email" : [appleIDCredential email ]};
+    
+        NSMutableDictionary *userDetails = @{@"userIdentifier": [appleIDCredential user],
+                                                    @"auth_code":[[NSString alloc] initWithData:[appleIDCredential authorizationCode] encoding:NSUTF8StringEncoding],
+
+                                                    @"first_name" : [appleIDCredential fullName].givenName?:[NSNull null],
+
+                                                    @"last_name" : [appleIDCredential fullName].familyName?:[NSNull null],
+
+                                                    @"email" : [appleIDCredential email]?:[NSNull null]
+                                                    };
+
         self.successBlock(userDetails);
     }
    
 }
+
 
 - (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithError:(NSError *)error {
     NSLog(@"%@",error);
