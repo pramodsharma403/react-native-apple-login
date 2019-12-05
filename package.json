@@ -2,7 +2,7 @@
 	"name": "react-native-apple-login",
 	"description": "This is the dependency for Sign In With Apple.",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Pramod Sharma",
 	"keywords": [
 		"react-native",

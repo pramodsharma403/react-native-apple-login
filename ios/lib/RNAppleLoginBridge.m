@@ -9,7 +9,7 @@
 #import "ReactNativeBridge.h"
 #import "LoginWithApple.h"
 
-@implementation ReactNativeBridge
+@implementation RNAppleLoginBridge
 
 RCT_EXPORT_MODULE()
 

@@ -1,6 +1,6 @@
 import { NativeModules, Platform } from 'react-native';
 
-const nativeComm = NativeModules.ReactNativeBridge;
+const nativeComm = NativeModules.RNAppleLoginBridge;
 
 export default () => {
 	if (Platform.OS === 'android') {

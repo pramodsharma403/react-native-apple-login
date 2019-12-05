@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ReactNativeBridge : NSObject<RCTBridgeModule>
+@interface RNAppleLoginBridge : NSObject<RCTBridgeModule>
 
 @end
 
