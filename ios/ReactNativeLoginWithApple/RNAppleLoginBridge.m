@@ -6,7 +6,7 @@
 //  Copyright © 2019 PRAMOD. All rights reserved.
 //
 
-#import "ReactNativeBridge.h"
+#import "RNAppleLoginBridge.h"
 #import "LoginWithApple.h"
 
 @implementation ReactNativeBridge
