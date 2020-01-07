@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.source         = { :git => package['homepage'], :tag => spec.version }
 
   spec.requires_arc   = true
-  spec.platform       = :ios, '11.0'
+  spec.platform       = :ios, '10.0'
   
   spec.source_files = "ios/lib/*.{h,m}"
 
